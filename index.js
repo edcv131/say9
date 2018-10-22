@@ -43,7 +43,7 @@ var prefix = "."
   let args = message.content.split(" ").slice(1);
   if(!args) return message.channel.send(`${prefix}say <words>`);
 
-if (command == "2say") {
+if (command == "9say") {
 if(!message.guild.member(message.author).hasPermission("ADMINSTRATOR")) return message.reply("*لا تملك الصلاحيات المطلوبه**");
 
 message.channel.send(args.join("  "))
